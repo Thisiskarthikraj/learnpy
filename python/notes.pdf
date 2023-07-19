@@ -1,0 +1,135 @@
+
+git//
+
+git init 
+git config --global user.name "name"
+git config --global user.email email@email.com 
+git add .
+git commit -m "ok"
+git remote add origin  url of repo
+git branch -M main 
+git push -u origin 
+
+
+
+Python
+
+output operator
+print()
+input operator
+input()
+
+working 
+
+a=input() //it takes input as  string values or 
+a=input("enter the  input values")
+
+print(a) //  print the value of a
+ 
+ 
+ typecating 
+
+variable_name=type(input("values"))
+
+
+
+operators in python
+
+membership  operators 
+identity operators
+bitwase operators
+arithemetic operators
+         // -> floor division
+         ** -> exponent  
+
+
+assignment operators
+comparison 
+logical operator
+         and ,or , not
+
+membership operator
+
+in 
+not in
+
+example
+
+a="python"
+
+print('y' in a) //true
+print?("y" not in a)// true
+
+identity operator [is ,is no]
+
+a="Hello"
+b="hello"
+print(a is b) //false
+print (a is not b)// true because a and b are two different values 
+
+multiple strings -> three qutoes 
+
+example; """ fbiffihfudfhdoufhdfhbiffihfudfhdoufhdfhbiffihfudfhdoufhdfhbiffihfudfhdoufhdfhbiffihfudfhdoufhdfhbiffihfudfhdoufhdfh"""
+
+string 
+
+indexed values 
+array of alues -> string 
+starts from 0 
+          
+ data stracture 
+
+ list []
+ ex: ['python",3,22.11] 
+ hetrogenious in nature
+ indexed & ordered
+ allow duplicate values
+ allow modifications like add, delete, update
+
+
+set 
+
+            a={1,3,3,"abc"}
+            print(a)
+                   --- possible outputs
+                    output1// {1 abc }
+                    output2// {abc 1}
+
+: unordered
+: unindexed 
+: no duplication
+: allow multiple datatypes 
+:modifications is allowed } add(single item)
+}update(multiple items , only string  values can add through update directely) 
+
+: no replace and updates 
+
+dictionary
+d={
+    "name":"karthik",
+    "age" : 20,
+    "place": "kulathumon"
+}
+where name is key and karthik is value 
+it allows multiple datatypes
+allow modifications (add, delete,update)
+update()
+example d.update({'place':'kochi'})
+d["name"]="user" } replace
+d.pop("name") } delete
+---------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+
+Condition Staement 
+==================
+
+if, else 
+
+
+if Condition :
+         action
+else:
+        action
+
+        
