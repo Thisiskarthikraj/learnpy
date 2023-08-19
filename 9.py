@@ -1,11 +1,10 @@
-a=[1,2,3,4]
-b=[]
-i=0
-while i<len(a):
-    if  a[i] not in b:
-        b.append(a[i])
-        print(str(b))  
-    i+=1
-
-
+n = int(input('Enter number of rows : '))
+i = 1
+while i <= n :
+    j = 1
+    while j <= i:
+        print(j, end = " ")
+        j += 1
+    print()
+    i += 1
 
